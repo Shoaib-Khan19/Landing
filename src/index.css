@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .nav-link{
+        @apply hover:border-b-2 hover:border-yellow-800 hover:text-yellow-800 hover:font-semibold
+    }
+}

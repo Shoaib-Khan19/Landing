@@ -7,20 +7,20 @@ function Home() {
     <div>
         <nav className='flex justify-between items-center'>
             <h1 className='text-2xl'>ThinkFeat</h1>
-            <div className='hidden'>
-                <ul className='text-lg'>
-                    <li>Home</li>
-                    <li>Projects</li>
-                    <li>Profiles</li>
-                    <li>Courses</li>
-                    <li>Contact Us</li>
+            <div className='hidden md:block'>
+                <ul className='text-lg flex gap-4'>
+                    <li className='nav-link'>Home</li>
+                    <li className='nav-link'>Projects</li>
+                    <li className='nav-link'>Profiles</li>
+                    <li className='nav-link'>Courses</li>
+                    <li className='nav-link'>Contact Us</li>
                 </ul>
             </div>
             <div>
                 <PrimaryButton text="Log In"></PrimaryButton>
                 <SecondaryButton text="Log Out"></SecondaryButton>
             </div>
-            <div>
+            <div className='md:hidden'>
                 <LineIcon></LineIcon>
             </div>
 
