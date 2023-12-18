@@ -1,9 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html{
+    @apply font-Poppins;
+}
+body{
+    @apply
+    box-border bg-slate-900 text-gray-100 md:overflow-x-hidden     sm:overflow-x-hidden overflow-x-hidden;
+}
+.btn-primary{
+    @apply bg-cyan-600 font-semibold md:mx-0 mx-auto py-2 px-6 rounded-full flex items-center gap-2
+}
 @layer components{
     .nav-link{
-        @apply hover:border-b-2 hover:border-yellow-800 hover:text-yellow-800 hover:font-semibold
+        @apply cursor-pointer hover:border-b-2 hover:border-yellow-800 hover:text-yellow-800 hover:font-semibold
     }
 }
