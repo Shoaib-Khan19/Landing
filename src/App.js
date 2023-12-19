@@ -4,8 +4,8 @@ import Hero from './components/Hero';
 import Bot from './components/Bot';
 import About from './components/About';
 import Skills from './components/Skills';
-import Test from './components/Test';
-import TaskC from './components/TaskC';
+// import Test from './components/Test';
+// import TaskC from './components/TaskC';
 
 
 // import TaskC from './components/TaskC';
