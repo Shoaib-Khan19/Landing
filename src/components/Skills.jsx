@@ -40,7 +40,7 @@ function Skills() {
                     {
                         skills?.map((skill, index)=>(
                             <div className='border-2 min-w-[10rem] max-w-[16rem]'>
-                                <img src={skill.logo} className='w-16 h-16 mx-4' />
+                                <img src={skill.logo} className='w-16 h-16 mx-4'  alt='skil'/>
                             </div>
                         ))
                     }
